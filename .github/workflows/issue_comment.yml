@@ -1,5 +1,8 @@
 name: Issue Commenter
 
+permissions:
+  issues: write
+
 on:
   issues:
     types: [opened, edited]
